@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        gilroy:["gilroy-bold , sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
